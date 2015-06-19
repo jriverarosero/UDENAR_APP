@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">UDENAR App</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splas_screen">UDENAR App</string>
+    <string name="title_tab_news">Noticias</string>
+    <string name="title_tab_profile">Perfil</string>
+    <string name="title_tab_gradess">Notas</string>
+    <string name="title_tab_subjects">Materias</string>
+    <string name="title_tab_tickets">Desprendibles</string>
+    <string name="title_activity_login">Acceder</string>
+    <string name="title_login">Acceder</string>
+    <string name="title_user_name">Usuario</string>
+    <string name="title_user_pass">Contraseña</string>
+    <string name="err_login_name">Nombre de Usuario Incorrecto</string>
+    <string name="err_login_pass">Contraseña No Valida</string>
+    <string name="scc_login">Inicio de Sesión Existoso</string>
+    <string name="err_login">Inicio de Sesión Incorrecto</string>
+    <string name="on_load">Obteniendo Respuesta</string>
+    <string name="on_load_subjects">Obteniendo Materias</string>
+    <string name="on_load_tickets">Obteniendo Desprendibles</string>
+    <string name="on_load_news">Obteniendo Noticias</string>
+    <string name="title_Tickets">Listado de Desprendibles</string>
+    <string name="title_news">Noticias de la U</string>
+    <string name="title_subjects">Listado Materias</string>
+    <string name="no_subjects">No tiene Materias vigentes</string>
+    <string name="no_Tickets">No tiene Desprendibles vigentes</string>
+    <string name="title_activity_tickets">Desprendibles</string>
+    <string name="title_activity_subjects">Materias</string>
+    <string name="title_activity_news">Noticias</string>
+    <string name="title_activity_main_menu">Menú</string>
+    <string name="title_activity_profile">Perfil</string>
+    <string name="title_activity_map">Mapa</string>
+    <string name="title_activity_grades">Notas</string>
+    <string name="title_tab_maps">Mapa</string>
+    <string name="title_activity_maps">Mapa</string>
+
+
+    <string name="ing">Fac.  Ingeniería</string>
+    <string name="audit">Auditorio Principal</string>
+    <string name="cafeV">Cafetería 1</string>
+    <string name="cafeN">Cafetería 2</string>
+    <string name="mate">Bloque 3</string>
+    <string name="ocara">OCARA</string>
+    <string name="medicina">Fac.  Medicina</string>
+    <string name="fuchi">Plaza Fuchi</string>
+    <string name="face">FACEA</string>
+    <string name="artes">Fac.  Artes</string>
+    <string name="biblio">Biblioteca</string>
+    <string name="admin">Bloque Administrativo</string>
+    <string name="labesp">Lab especializados</string>
+    <string name="vete">Veterinaria</string>
+    <string name="derecho">Fac.  Derecho</string>
+    <string name="sico">Psicología</string>
+    <string name="parc1">Parqueadero 1</string>
+    <string name="parc2">Parqueadero 2</string>
+    <string name="parc3">Parqueadero 3</string>
+    <string name="coli">Coliseo Adriana Benítez</string>
+    <string name="title_activity_about">Acerca De</string>
+    <string name="title_logout">Cerrar Sesión</string>
+    <string name="logout">Cerrando Sesión</string>
+    <string name="other_usr">Se ha iniciadio sesión en otro dispositivo</string>
+    <string name="other_usr_AD">Fin de Sesión</string>
+    <string name="title_activity_data">Elegir Periodo</string>
+    <string name="title_day">Día</string>
+    <string name="title_mounth">Mes</string>
+    <string name="title_year">Año</string>
+    <string name="title_start_date">Fecha Inicial</string>
+    <string name="title_finish_date">Fecha Final</string>
+    <string name="title_query">Consultar</string>
+    <string name="err_date">Fecha Incorrecta</string>
+    <string name="list_tickets_empty">Lista de Desprendibles Vacia</string>
+
+</resources>

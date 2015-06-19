@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.galeras.udenar.udenarapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <Usa-permiso android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <Usa-permiso android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplasScreen"
+            android:label="@string/title_activity_splas_screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".Tickets"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_tickets" />
+        <activity
+            android:name=".Subjects"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_subjects" />
+        <activity
+            android:name=".News"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_news" />
+        <activity
+            android:name=".MainMenu"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_main_menu" />
+        <activity
+            android:name=".Profile"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_profile" />
+        <activity
+            android:name=".Grades"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_grades" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".About"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_about" />
+        <activity
+            android:name=".Data"
+            android:label="@string/title_activity_data" >
+        </activity>
+    </application>
+
+</manifest>
